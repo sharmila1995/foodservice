@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'crm',
     'crispy_forms',
     'mathfilters',
-    'django.contrib.humanize'
+    'django.contrib.humanize',
 ]
 
 MIDDLEWARE = [
@@ -125,6 +125,7 @@ STATIC_URL = '/static/'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
+SIGNUP_REDIRECT_URL = '/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 
